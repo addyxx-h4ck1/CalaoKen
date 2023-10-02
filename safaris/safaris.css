@@ -241,14 +241,15 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-.book{
+    flex-direction: column; 
     max-width: 1200px;
+}
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 
@@ -351,23 +352,27 @@ input[type=email], select, textarea{
 
 /*  */
 
-.footer{
-    max-width: 1200px;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.footer div{
+/*  */
+footer{
     background-color: black;
+    color: grey;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 300px;
-    height: 200px;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
 }
-.footer img{
+.wrapper{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+
+}
+footer img{
     width: 200px;
 }
+
