@@ -52,13 +52,13 @@ main{
 
 .days{
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
     color: brown;
     background-color: rgb(192, 223, 250);
-    padding: 20px 16px;
+    padding: 15px 15px;
 }
 .desc{
-    font-size: 20px;
+    font-size: 15px;
     line-height: 2rem;
     margin-left: .5rem;
 }
