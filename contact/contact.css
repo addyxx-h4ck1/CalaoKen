@@ -3,6 +3,7 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
+   
     
 }
 
@@ -30,118 +31,50 @@ h2{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 
-.col-2{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .col-2B{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: #c0dffa;
-}
-p{
-    margin-left: .5rem;
-    font-size: 13px;
-}
-
-/* form */
-/* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
-  }
-input[type=email], select, textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
-  }
-  
-  /* Style the label to display next to the inputs */
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: brown;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
-  
-  /* Style the container */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  /* Floating column for labels: 25% width */
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+   
+}
+.form-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 /* form */
-
-.col-2B a{
-    color: rgb(22, 24, 161);
-    font-size: 15px;
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  gap: 1rem;
+ 
+}
+input{
+  width: 100%;
+  padding: 15px 15px;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  border:none;
 }
 
-.links{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
+.submit input{
+  background-color: brown;
 }
-.feedback{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-}
-
+/* form */
 .wrapper{
     margin-top: 1rem;
     display: flex;
