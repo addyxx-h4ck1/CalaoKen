@@ -26,6 +26,11 @@
     height: 350px;
   }
 }
+@media screen and (min-width: 900px){
+  #all_slides{
+    height: 500px;
+  }
+}
 
 .slide{
     position: absolute;
