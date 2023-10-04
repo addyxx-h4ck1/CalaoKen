@@ -348,3 +348,108 @@ footer img{
     width: 200px;
 }
 
+.aditions-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aditions-wrapper{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+   gap: .5rem;
+}
+
+.card img{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    /* background-color: black; */
+    border-radius: 10px;
+   
+    
+}
+.card a{
+    color: brown;
+    font-size: 17px;
+}
+.card .redirect{
+   border-top: 7px solid brown;
+}
+
+@media screen and (max-width: 1000px){
+    .card{
+        width: 200px;
+        /* background-color: black; */
+        border-radius: 10px;
+       
+        
+    }
+}
+@media screen and (max-width: 700px){
+    .card{
+        width: 150px;
+        /* background-color: black; */
+        border-radius: 10px;
+       
+        
+    }
+}
+@media screen and (max-width: 600px){
+    .card{
+        width: 200px;
+        /* background-color: black; */
+        border-radius: 10px;
+       
+        
+    }
+    .aditions-wrapper{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 411px){
+    .card{
+        width: 180px;
+        /* background-color: black; */
+        border-radius: 10px;
+       
+        
+    }
+    .aditions-wrapper{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 370px){
+    .card{
+        width: 150px;
+        /* background-color: black; */
+        border-radius: 10px;
+       
+        
+    }
+    .aditions-wrapper{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 350px){
+    .card{
+        width: 200px;
+        /* background-color: black; */
+        border-radius: 10px;
+       
+        
+    }
+    .aditions-wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
