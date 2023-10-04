@@ -11,7 +11,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EFEFEF;
   max-width: 1200px;
   width: 100%;
 } 
@@ -50,7 +49,7 @@
   padding: 3px;
 }
 .card-image .card-img{
-  height: 350px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
