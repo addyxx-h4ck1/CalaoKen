@@ -389,11 +389,19 @@ footer img{
        display: none;
         
     }
+    .card a{
+        color: brown;
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 500px){
     .card:nth-child(3){
        display: none;
         
+    }
+    .card a{
+        color: brown;
+        font-size: 14px;
     }
 }
 
