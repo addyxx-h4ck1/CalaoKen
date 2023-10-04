@@ -30,9 +30,13 @@ header{
   background-color: #333;
   overflow: hidden;
   width: 100%;
- 
 }
-
+@media screen and (min-width: 1000px){
+  .topnav{
+    display: flex;
+    justify-content: space-between;
+  }
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
