@@ -372,6 +372,8 @@ footer img{
     width: 250px;
     /* background-color: black; */
     border-radius: 10px;
+    max-height: 250px;
+    margin-bottom: 4rem;
    
     
 }
@@ -382,71 +384,16 @@ footer img{
 .card .redirect{
    border-top: 7px solid brown;
 }
-
-@media screen and (max-width: 1000px){
-    .card{
-        width: 200px;
-        /* background-color: black; */
-        border-radius: 10px;
-       
-        
-    }
-}
-@media screen and (max-width: 700px){
-    .card{
-        width: 150px;
-        /* background-color: black; */
-        border-radius: 10px;
-       
-        
-    }
-}
 @media screen and (max-width: 600px){
-    .card{
-        width: 200px;
-        /* background-color: black; */
-        border-radius: 10px;
-       
+    .card:last-child{
+       display: none;
         
-    }
-    .aditions-wrapper{
-        flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 411px){
-    .card{
-        width: 180px;
-        /* background-color: black; */
-        border-radius: 10px;
-       
+@media screen and (max-width: 500px){
+    .card:nth-child(3){
+       display: none;
         
-    }
-    .aditions-wrapper{
-        flex-wrap: wrap;
-    }
-}
-@media screen and (max-width: 370px){
-    .card{
-        width: 150px;
-        /* background-color: black; */
-        border-radius: 10px;
-       
-        
-    }
-    .aditions-wrapper{
-        flex-wrap: wrap;
-    }
-}
-@media screen and (max-width: 350px){
-    .card{
-        width: 200px;
-        /* background-color: black; */
-        border-radius: 10px;
-       
-        
-    }
-    .aditions-wrapper{
-        flex-wrap: wrap;
     }
 }
 
