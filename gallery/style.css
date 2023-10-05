@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    max-width: 1200px;
+    width: 100%;
+    height: 200px;
+}
+.main-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 200px;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+.main a img{
+  object-fit: cover;
+  width: 290px;
+  border-radius: 10px;
+  max-height: 200px;
+}
+@media screen and (min-width: 200px){
+    .main a img{
+        object-fit: cover;
+        width: 200px;
+        border-radius: 10px;
+        max-height: 200px;
+      }
+}
+@media screen and (min-width: 300px){
+    .main a img{
+        object-fit: cover;
+        width: 140px;
+        border-radius: 5px;
+        height: 130px;
+      }
+}
+@media screen and (min-width: 340px){
+    .main a img{
+        object-fit: cover;
+        width: 160px;
+        border-radius: 5px;
+        height: 150px;
+      }
+}
+@media screen and (min-width: 340px){
+    .main a img{
+        object-fit: cover;
+        width: 160px;
+        border-radius: 5px;
+        height: 150px;
+      }
+}
+@media screen and (min-width: 370px){
+    .main a img{
+        object-fit: cover;
+        width: 180px;
+        border-radius: 5px;
+        height: 170px;
+      }
+}
+@media screen and (min-width: 370px){
+    .main a img{
+        object-fit: cover;
+        width: 180px;
+        border-radius: 5px;
+        height: 170px;
+      }
+}
+@media screen and (min-width: 430px){
+    .main a img{
+        object-fit: cover;
+        width: 200px;
+        border-radius: 5px;
+        height: 190px;
+      }
+}
+@media screen and (min-width: 470px){
+    .main a img{
+        object-fit: cover;
+        width: 230px;
+        border-radius: 5px;
+        height: 210px;
+      }
+}
+@media screen and (min-width: 500px){
+    .main a img{
+        object-fit: cover;
+        width: 155px;
+        border-radius: 5px;
+        height: 140px;
+      }
+}
+@media screen and (min-width: 500px){
+    .main a img{
+        object-fit: cover;
+        width: 155px;
+        border-radius: 5px;
+        height: 140px;
+      }
+}
+@media screen and (min-width: 900px){
+    .main a img{
+        object-fit: cover;
+        width: 220px;
+        border-radius: 5px;
+        height: 200px;
+      }
+}
+@media screen and (min-width: 900px){
+    .main a img{
+        object-fit: cover;
+        width: 220px;
+        border-radius: 5px;
+        height: 200px;
+      }
+}
+@media screen and (min-width: 1000px){
+    .main a img{
+        object-fit: cover;
+        width: 240px;
+        border-radius: 5px;
+        height: 230px;
+      }
+}
+@media screen and (min-width: 1100px){
+    .main a img{
+        object-fit: cover;
+        width: 270px;
+        border-radius: 5px;
+        height: 250px;
+      }
+}
+@media screen and (min-width: 1200px){
+    .main a img{
+        object-fit: cover;
+        width: 297px;
+        border-radius: 5px;
+        height: 280px;
+      }
+}
