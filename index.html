@@ -21,6 +21,7 @@
 
 
     <script defer src="main.js"></script>
+    <script defer src="validate.js"></script>
 
     
     
@@ -41,7 +42,7 @@
           
           <div class="dropdown">
             <button class="dropbtn">
-              Explorez les safaris
+              Safaris
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -72,7 +73,7 @@
           </div>
           <div class="dropdown">
             <button class="dropbtn">
-              Parle nous 
+              Contactez-nous.
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -90,7 +91,7 @@
           >
           <a href="/gallery/index.html">Gallerie</a>
          <!-- <a href="/contact/contact.html" class="icon"  style="display: block; float: right; position: relative;">Livre</a> -->
-         <a href="/contact/contact.html" style="display: block; float: right; position: relative; font-size: 14px;" class="icon" id="adds">Contactez-nous</a>
+         <a href="/contact/contact.html" style="display: block; float: right; position: relative; font-size: 14px;" class="icon" id="adds">Contact</a>
          
          <div class="dropdown">
           <button class="dropbtn">
@@ -191,17 +192,17 @@
         <div class="form">
           <h2 style="color: blue; border: none; font-size: 20px;">Contactez nous</h2>
           <form >
-              <label for="">votre nom et prénom</label>
-              <input type="text"> 
+              <label for="name">votre nom et prénom</label>
+              <input type="text" name="Name" id="name" required> 
 
-              <label for="">Votre adresse mail</label>
-              <input type="text"> 
+              <label for="email">Votre adresse mail</label>
+              <input type="email" id="email" required> 
 
-              <label for="">Objet</label>
-              <input type="text"> 
+              <label for="object">Objet</label>
+              <input type="text" name="Subject" id="subject" required> 
 
               <label for="message">Votre message</label>
-              <textarea name="message" id="" cols="30" rows="10" style="height: 200px;"></textarea>
+              <textarea name="message" id="message" cols="30" rows="10" style="height: 200px;"></textarea>
                 <br>
               <input type="submit" value="Envoyer Ma Demande" class="submit">
 
