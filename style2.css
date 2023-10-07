@@ -82,6 +82,7 @@ header{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
+  color: brown;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -90,7 +91,8 @@ header{
 /* Style the links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  color: brown;
+  font-weight: 400;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

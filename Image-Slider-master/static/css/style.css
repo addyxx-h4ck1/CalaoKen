@@ -120,12 +120,30 @@
   background-position: center;
   background-repeat: no-repeat
 }
-.slide:nth-of-type(8){
+/* .slide:nth-of-type(8){
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+} */
+/* .slide:nth-of-type(9){
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat
 }
+.slide:nth-of-type(10){
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.slide:nth-of-type(11){
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+} */
 
 
 
