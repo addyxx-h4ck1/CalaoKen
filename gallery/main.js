@@ -14,6 +14,7 @@ const myFunc = async () => {
 
             const image = document.createElement('img')
             image.setAttribute(`src`, `${element}`)
+            image.setAttribute('loading', 'lazy')
 
             a.appendChild(image)
             parent.appendChild(a)
