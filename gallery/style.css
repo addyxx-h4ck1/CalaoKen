@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a img{
+  background-color: rgb(119, 196, 247);
+}
 .top-div{
     display: flex;
     justify-content: center;
