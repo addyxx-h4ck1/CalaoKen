@@ -1,7 +1,12 @@
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
-    spaceBetween: 25,
+    spaceBetween: 20,
     loop: true,
+    autoplay : {
+      delay: 2000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true
+    },
     centerSlide: 'true',
     fade: 'true',
     grabCursor: 'true',
