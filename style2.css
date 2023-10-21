@@ -171,3 +171,6 @@ header{
     display: none;
   }
 }
+.banner:hover{
+  background-color: brown;
+}
