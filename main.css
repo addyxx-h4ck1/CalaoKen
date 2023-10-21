@@ -22,7 +22,7 @@ main {
   width: 100%;
 }
 .col-1-wrapper{
-  max-width: 1200px;
+  max-width: 1500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +37,7 @@ li div{
 
 .col-2 {
   display: flex;
-  max-width: 1200px;
+  max-width: 1300px;
   gap: 2rem;
  
   /* justify-content: center;
@@ -333,6 +333,91 @@ h2 {
     font-size: 15px;
   }
 }
+/*Top safaris */
+.col-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.backgroundImage{
+  max-width: 1500px;
+  display: flex;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1518459384564-ecfd8e80721f?auto=format&fit=crop&q=80&w=1448&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+}
+.col-5-wrapper{
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+/*Top safaris */
+
+/* why choose us */
+/* why choose us */
+.col-6{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.col-6-wrapper{
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  background-color: brown;
+}
+.col-6-wrapper .image{
+  background-image: url(https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&q=80&w=1472&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  max-height: 700px;
+}
+.col-6-wrapper .a{
+  padding: 10px 10px;
+  background-color: darkorange;
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+  border: none;
+}
+.col-6-wrapper .a a{
+  color: black;
+  font-weight: 900;
+}
+.col-6-wrapper .a:hover{
+  background-color: rgb(81, 82, 85);
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+  transition: all 1s ease-out;
+}
+.txt{
+  width: 50%;
+  max-height: 700px;
+}
+.txt p{
+  margin: 0.5rem;
+}
+@media screen and (max-width: 800px) {
+  .txt{
+    width: 100%;
+  }
+  .image{
+    display: none;
+  }
+}
+/* why choose us */
+/* why choose us */
+/* why choose us */
 
 footer {
   background-color: black;

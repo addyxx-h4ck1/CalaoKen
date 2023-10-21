@@ -20,9 +20,9 @@
   color:#5db4ff;
 }
 header{
-  position: sticky;
+ 
   z-index: 1000;
-  top: 0;
+ 
 }
 /* Add a black background color to the top navigation */
 
@@ -30,6 +30,7 @@ header{
   background-color: #333;
   overflow: hidden;
   width: 100%;
+  z-index: 1000;
 }
 @media screen and (min-width: 1000px){
   .topnav{
@@ -50,7 +51,7 @@ header{
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: darkred;
+  background-color: rgb(214, 214, 214);
   color: white;
 }
 
@@ -156,7 +157,7 @@ header{
   width: 100%;
 }
 .header-wrapper{
-  max-width: 1200px;
+  max-width: 1500px;
   display: flex;
   align-items: center;
   justify-content: center;
