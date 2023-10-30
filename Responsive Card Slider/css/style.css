@@ -57,7 +57,7 @@
   font-size: 15px;
   font-weight: 500;
   color: brown;
-  border-top: 7px solid blue;
+  border-top: 7px solid royalblue;
 
 }
 .description{
@@ -70,7 +70,7 @@
   font-size: 16px;
   color: black;
   padding: 8px 16px;
-  background-color: blue;
+  background-color: royalblue;
   font-weight: 900;
   border-radius: 6px;
   margin: 14px;

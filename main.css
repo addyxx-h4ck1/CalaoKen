@@ -37,7 +37,8 @@ li div{
 
 .col-2 {
   display: flex;
-  max-width: 1300px;
+  flex-direction: column;
+  max-width: 1500px;
   gap: 2rem;
  
   /* justify-content: center;
@@ -47,46 +48,79 @@ li div{
 .col-2 .top-info{
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 100%;
 }
 /* form */
-form{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
- 
-}
-div.form{
-  margin-top: 1rem;
+.form{
+  background-color: rgba(0, 0, 0, 0.432);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
   display: flex;
   justify-content: center;
-  width: 600px;
+  align-items: center;
   flex-direction: column;
- 
-}
-input{
-  padding: 15px 15px;
-  border: none;
-  background-color: #cce7ff;
   width: 100%;
-  border-radius: 10px;
 }
-input.submit{
-  background-color: blue;
+.forma{
+ background-image: url('/formB.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
-textarea{
-  border-radius: 10px;
-  border: 3px solid #cce7ff;
+.form form{
+  margin: 1rem 0 ;
+  max-width: 900px;
+  background-color: rgba(0, 0, 0, 0.432);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px;
+}
+.form label{
+  padding-left: 1rem;
+  color: rgb(255, 50, 50);
 }
 
-@media screen and (max-width: 1000px){
-  div.form{
-    display: none;
-  }
-  .col-2 .top-info{
-    display: flex;
-    flex-direction: column;
+input{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  align-self: center;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 2px rgb(155, 155, 155);
+}
+
+input.submit{
+  background-color: brown;
+  color: black;
+  box-shadow: 0 0 0;
+}
+textarea{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  align-self: center;
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 2px rgb(189, 189, 189);
+  outline: none;
+  border: none;
+}
+@media screen and (max-width: 400px){
+  .form form{
     width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: bisque;
   }
 }
 /* form */
@@ -365,6 +399,21 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+}
+.col-6 .form{
+  max-width: 1500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.432);
+  background-image: none;
+}
+.col-6 .form-overlay{
+  background-image: url('/formA.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1500px;
+  width: 100%;
 }
 .col-6-wrapper{
   max-width: 1500px;
