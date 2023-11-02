@@ -31,8 +31,7 @@ main {
 }
 
 li div{
- 
-  width: fit-content;
+  width: 100%;
 }
 
 .col-2 {
@@ -124,10 +123,6 @@ textarea{
 }
 /* form */
 
-
-
- 
- 
 
 .col-2 div p {
   font-size: 15px;
