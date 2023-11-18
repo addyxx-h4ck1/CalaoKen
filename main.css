@@ -51,7 +51,7 @@ li div{
 }
 /* form */
 .form{
-  background-color: rgba(0, 0, 0, 0.432);
+  background-color: rgba(0, 0, 0, 0.486);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -62,10 +62,11 @@ li div{
   width: 100%;
 }
 .forma{
- background-image: url('/formB.jpg');
+ background-image: url(https://plus.unsplash.com/premium_photo-1664301461045-0cc0eb0de316?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+ background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,15 +75,17 @@ li div{
 }
 .form form{
   margin: 1rem 0 ;
-  max-width: 900px;
-  background-color: rgba(0, 0, 0, 0.432);
+  background-color: rgba(158, 158, 158, 0.295);
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 20px;
+  border-radius: 10px;
 }
 .form label{
   padding-left: 1rem;
-  color: rgb(255, 50, 50);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 800;
 }
 
 input{
@@ -90,12 +93,15 @@ input{
   background-color: transparent;
   align-self: center;
   padding: 10px 10px;
-  border: none;
+  border: .1px solid black;
   outline: none;
   width: 90%;
   border-radius: 5px;
   margin-bottom: 1rem;
-  box-shadow: 0 0 2px rgb(155, 155, 155);
+
+}
+input::placeholder{
+  color: rgb(219, 5, 5);
 }
 
 input.submit{
@@ -110,15 +116,24 @@ textarea{
   border-radius: 5px;
   width: 90%;
   margin-bottom: 1rem;
-  box-shadow: 0 0 2px rgb(189, 189, 189);
   outline: none;
-  border: none;
+  border: .1px solid black;
+  padding: .5rem;
+}
+textarea::placeholder{
+  color: rgb(219, 5, 5);
 }
 @media screen and (max-width: 400px){
   .form form{
-    width: 100%;
+    width: 90%;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  input{
+    width: 100%;
+  }
+  textarea{
+    width: 100%;
   }
 }
 /* form */
@@ -373,6 +388,7 @@ h2 {
   width: 100%;
   background-image: url(https://images.unsplash.com/photo-1518459384564-ecfd8e80721f?auto=format&fit=crop&q=80&w=1448&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: sticky;
@@ -398,7 +414,7 @@ h2 {
 .col-6 .form{
   max-width: 1500px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.432);
+  background-color: rgba(0, 0, 0, 0.541);
   background-image: none;
 }
 .col-6 .form-overlay{
@@ -406,6 +422,7 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   max-width: 1500px;
   width: 100%;
 }
@@ -421,6 +438,7 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 50%;
   max-height: 700px;
 }

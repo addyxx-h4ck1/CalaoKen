@@ -116,23 +116,6 @@
         <!-- <a href="/contact/contact.html" class="icon"  style="display: block; float: right; position: relative;">Livre</a> -->
         <a href="/contact/contact.html" style="display: block; float: right; position: relative; font-size: 14px;"
           class="icon" id="adds">Contact</a>
-
-        <!-- <div class="dropdown">
-          <button class="dropbtn">
-           <img src="/flags/fr.png" alt="" style="width: 25px; display: block;">
-          </button>
-          <div class="dropdown-content">
-            <div id="google_translate_element"></div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-           <img src="/flags/eng.png" alt="" style="width: 25px; display: block;">
-          </button>
-          <div class="dropdown-content">
-            <div id="google_translate_element"></div>
-          </div>
-        </div> -->
         <style>
           @media screen and (min-width: 320px) {
             #adds {
@@ -246,18 +229,26 @@
       </div>
       <div class="forma">
         <div class="form">
-          <h2 style="color: rgb(255, 53, 53); border: none; font-size: 20px;">Contactez nous</h2>
           <form action="https://formsubmit.co/calaokenyasafaris@gmail.com" method="POST">
+            <h2 style="
+              text-align: center;
+              border: none;
+              color: rgb(224, 0, 0);
+              font-weight: 800;
+              font-size: 20px;
+              ">Contactez nous</h2>
+
             <label for="name">votre nom et prénom</label>
-            <input type="text" name="Name" id="name" required>
+            <input type="text" name="Name" id="name" placeholder="prénom*"  required>
   
             <label for="email">Votre adresse mail</label>
-            <input type="email" name="Email " id="email" required>
+            <input type="email" name="Email " id="email" placeholder="Mail*" required>
   
             <label for="object">Objet</label>
-            <input type="text" name="Subject" id="subject" required>
+            <input type="text" name="Subject" id="subject" placeholder="Object*" required>
+
             <label for="message">Votre message</label>
-            <textarea name="Message" id="message" cols="30" rows="10" style="height: 200px;"></textarea>
+            <textarea name="Message" id="message" cols="30" rows="10" style="height: 200px;" placeholder="Message"></textarea>
             
   
             <input type="hidden" name="_cc" value="webtech.bn@gmail.com">
@@ -765,25 +756,33 @@
     </div>
     <div class="form-overlay">
       <div class="form">
-        <h2 style="color: rgb(255, 53, 53); border: none; font-size: 20px;">Contactez nous</h2>
         <form action="https://formsubmit.co/calaokenyasafaris@gmail.com" method="POST">
+          <h2 style="
+            text-align: center;
+            border: none;
+            color: rgb(224, 0, 0);
+            font-weight: 800;
+            font-size: 20px;
+            ">Contactez nous</h2>
+
           <label for="name">votre nom et prénom</label>
-          <input type="text" name="Name" id="name" required>
-  
+          <input type="text" name="Name" id="name" placeholder="prénom*"  required>
+
           <label for="email">Votre adresse mail</label>
-          <input type="email" name="Email " id="email" required>
-  
+          <input type="email" name="Email " id="email" placeholder="Mail*" required>
+
           <label for="object">Objet</label>
-          <input type="text" name="Subject" id="subject" required>
+          <input type="text" name="Subject" id="subject" placeholder="Object*" required>
+
           <label for="message">Votre message</label>
-          <textarea name="Message" id="message" cols="30" rows="10" style="height: 200px;"></textarea>
+          <textarea name="Message" id="message" cols="30" rows="10" style="height: 200px;" placeholder="Message"></textarea>
           
-  
+
           <input type="hidden" name="_cc" value="webtech.bn@gmail.com">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
           <input type="submit" value="Envoyer Ma Demande" class="submit">
-  
+
         </form>
       </div>
     </div>
@@ -818,13 +817,13 @@
       </div>
     </div>
     <div style="margin-top: 1rem;">
-      <p>
-        Copyright &copy;
+      <p style="text-align: center; color: bisque;">
+        Calao Kenya Safaris &copy;
         <script>
           const date = new Date();
           document.write(date.getFullYear())
         </script>
-        All Rights Reserved
+        | Designed by <a href="https://webtechbn.netlify.app/">webtechbn.com</a>
       </p>
     </div>
     
