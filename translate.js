@@ -1,10 +1,25 @@
+// function googleTranslateElementInit() {
+//   setCookie('googtrans', '/en/fr', 1)
+//   new google.translate.TranslateElement(
+//     {
+//       pageLanguage: 'ES',
+//       layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+//     },
+//     'google_translate_element'
+//   )
+// }
 
-    function googleTranslateElementInit() {
-        setCookie('googtrans', '/en/fr', 1);
-        new google.translate.TranslateElement({ pageLanguage: 'ES', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
-    }
-    function setCookie(key, value, expiry) {
-        var expires = new Date();
-        expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
-        document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
-    } 
+let translate = document.querySelector('.translate')
+translate.addEventListener('click', () => {
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'fr',
+        includedLanguages: 'en,fr', // Add more languages as needed
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      },
+      'google_translate_element'
+    )
+  }
+  googleTranslateElementInit()
+})

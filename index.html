@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/Image-Slider-master/static/css/style.css">
-  <link rel="shortcut icon" href="/apple-touch-icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
 
 
   <script defer src="main.js"></script>
@@ -91,8 +91,6 @@
             <a href="https://www.facebook.com/GuideFrancophoneAuKenya/"><i class="fa fa-facebook"></i> Facebook</a>
             <!-- <a href="#"><i class="fa fa-twitter"></i> Twitter</a> -->
             <a href="https://www.instagram.com/calaokenyasafaris/"><i class="fa fa-instagram"></i> Instagram</a>
-            <!-- <a href="#"><i class="fa fa-pinterest"></i> Pinterest</a> -->
-
           </div>
         </div>
         <div class="dropdown">
@@ -114,6 +112,7 @@
         <a href="javascript:void(0);" onclick="myFunction();" class="icon">&#9776;</a>
         <a href="/gallery/index.html">Gallerie</a>
         <!-- <a href="/contact/contact.html" class="icon"  style="display: block; float: right; position: relative;">Livre</a> -->
+        
         <a href="/contact/contact.html" style="display: block; float: right; position: relative; font-size: 14px;"
           class="icon" id="adds">Contact</a>
         <style>
@@ -125,7 +124,7 @@
         </style>
         <script>
           function myFunction() {
-            var x = document.getElementById("myTopnav");
+            var x = document.querySelector(".myTopnav");
             if (x.className === "topnav") {
               x.className += " responsive";
             } else {
@@ -206,7 +205,7 @@
     <section class="col-2">
       <div class="top-info">
         <br>
-        <h2 style="text-align: center; color: royalblue; font-size: 40px; border: none;">Calao Kenya Safaris</h2>
+        <h2 style="text-align: center; color: royalblue; font-size: 40px; border: none;" class="notranslate">Calao Kenya Safaris</h2>
 
         <h3 style="text-align: center; color: rgb(255, 102, 0);"> le guide fracophoune au Kenya.</h3>
 
@@ -843,18 +842,20 @@
   <div  class="banner" style="
   float: right;
   position: sticky;
-  bottom: 40%;
+  bottom: 20px;
   z-index: 1000;
-  background-color: rgb(170, 170, 170);
+  background-color: #1b1b1b;
   border-radius: 5px;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+padding: 10px;
+display: flex;
+gap: 1rem;
  ">
  
-<a href="https://wa.me/+254727923328" style="font-size: 15px; color: rgb(0, 0, 0); font-weight: 900; padding: 5px;" >Parlons   <br><i class="fa fa-arrow-down"></i></a>
-<br>
-<a href="https://wa.me/+254727923328" style="text-align: center;"><i class="fa fa-whatsapp" style="font-size: 30px; background-color: green; border-radius: 30%; color: white; padding: 5px;"></i></a>
+
+<a href="https://wa.me/+254727923328" style="text-align: center;"><i class="fa fa-whatsapp" style="font-size: 20px; background-color: green; border-radius: 30%; color: white; padding: 5px;"></i></a>
+
+<a  class="translate" id="google_translate_element" style="cursor: pointer; color: rgb(107, 107, 255); font-weight: 800;"><i class="fa fa-language"></i> Translate</a>
 </div>
 
 
@@ -863,11 +864,6 @@
   <script src="translate.js"></script>
   <script type="text/javascript"
     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({ pageLanguage: 'fr' }, 'google_translate_element');
-    }
-  </script>
 </body>
 <!-- Swiper JS -->
 <script src="/Responsive Card Slider/js/swiper-bundle.min.js"></script>
